@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap");
+:root{
+    --home-text: rgb(189, 189, 189)
+}
+.Home {
+  
+}
+.Home h1 {
+  font-size: 100px;
+  font-weight: 700 !important;
+  margin: 0;
+  color: var(--home-text)
+}
+.Home button{
+   
+    background-color: rgb(50, 141, 141);
+    border: none;
+    color: var(--home-text);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+.Home button:hover{
+    cursor: pointer;
+}

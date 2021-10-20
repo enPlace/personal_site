@@ -1,0 +1,35 @@
+:root {
+    --navText:rgb(143, 176, 209);
+}
+.nav{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+}
+#logo{
+    padding: 20px;
+}
+.nav h1 {
+    color: var(--navText)
+}
+.nav p {
+    color: var(--navText);
+}
+
+.nav a{
+    text-decoration: none;
+    color: var(--navText);
+    align-self: flex-end;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 26px;
+    display: flex;
+}
+.nav a.active{
+    background-color: rgb(22, 22, 22);
+}
+.nav a:hover{
+    background-color: rgb(94, 94, 94);
+}
